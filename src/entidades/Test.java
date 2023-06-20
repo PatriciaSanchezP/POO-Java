@@ -7,9 +7,16 @@ public class Test {
 		
 		EvilFelipe.mostrarInformacion();
 		
-		Empleado Pikachu = new Empleado ("Pikachu",50,"ASRFRRF", "3456464", "Pokemon");
+		Empleado Pikachu = new Empleado ("Pikachu",50,"ASRFRRF", "3456464", "Pokemon", null, null);
 		
 		Pikachu.mostrarInformacion();
+		
+		System.out.println("Impresión de Objetos");
+		System.out.println(EvilFelipe);
+		
+		
 	}
+	
+
 
 }
