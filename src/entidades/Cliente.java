@@ -61,4 +61,32 @@ public class Cliente {
  *        cuenta = 0.00f; 
  *
  * 
+ * Cuando declaramos nuestros atributos como privados, se impide el acceso a esta informacion (no podremos imprimirla en consola, ni mucho menos modificarla).
+ * 
+ * 
+ *  Jesus.nombre = si puedo acceder porque la informacion esta publica
+ *  Jesus.saldo = no se muestra porque la informacion esta privada
+ * 
+ * 
+ * Para solventar esto, usamos los getters y setters. El getters nos permite acceder al dato por medio de un metodo publico llamado get, y tambien podemos modificar la informacion por medio del set (metodo publico)
+ * 
+ * 
+ * 
+ * Jesus.getCuentaBancaria = si puedo acceder a la informacion
+ * Jesus.setCuentaBancaria = si puedo modificar la informacion
+ * 
+ * 
+ * 
+ * Ventajas del encapsulamiento
+ * 
+ * - Proteccion de datos: Cuando dejamos los datos en privado, se evita que se sobreescriban, que se accedan directamente a ellos y se modifiquen de manera incontrolada.
+ * 
+ * - Control de acceso: Podemos usar validaciones o valores booleanos para tener acceso o no a la informacion (que un administrador pueda usar un setter para modificar algun dato en especifico).
+ * 
+ * - Flexibilidad y mantenimiento: Podemos cambiar la implementacion interna de nuestras clases (modificar el acceso, etc), sin modificar el codigo externo que la utiliza (herencia, etc.).
+ * 
+ * 
+ * - Abstraccion: El encapusulamiento nos permite ocultar los detalles internos de una clase, y nos proporciona un enfoque "mas limpio" sobre lo que hace una clase, mas no como lo hace. 
+ * 
+ * 
  */
